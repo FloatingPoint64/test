@@ -2,6 +2,7 @@ import datetime
 
 
 if __name__ == "__main__":
-    s_time = datetime.datetime.now()
-    print(f"{s_time}: Hello world!!")
+    now = datetime.datetime.now()
+    now_str = now.strftime("%Y/%m/%d %H-%M-%S")
+    print(f"{now_str}: Hello world!!")
 
