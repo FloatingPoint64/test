@@ -2,5 +2,6 @@ import datetime
 
 
 if __name__ == "__main__":
-    print(datetime.datetime.now())
+    s_time = datetime.datetime.now()
+    print(f"{s_time}: Hello world!!")
 
